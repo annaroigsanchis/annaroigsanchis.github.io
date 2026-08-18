@@ -56,11 +56,11 @@
                 overflow: visible;
             }
 
-
             #page-top {
-                height: 100vh;
+                min-height: 100vh;
                 overflow: visible;
             }
+
 
             #mainNav {
                 background: transparent;
@@ -82,16 +82,18 @@
                 margin-bottom: 20px; /* Add some spacing below the title */
             }
 
-
             .img-container {
-                height: 75vh; /* Adjust this value based on your needs */
+                max-width: 320px;      /* was height: 75vh — that's what made it huge */
+                margin: 0 auto;
                 overflow: visible;
             }
 
             .img-container img {
                 width: 100%;
                 height: auto;
+                border-radius: 8px;    /* optional, just a nice touch */
             }
+
             btn-cv {
             border: none;
             color: white;
